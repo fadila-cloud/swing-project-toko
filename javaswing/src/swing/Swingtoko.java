@@ -1,14 +1,14 @@
 package swing; 
 
 //import library Scanner ke program
-import java.util.Scanner;
+import java.util.Scanner; 
 
 public class Swingtoko{
 
     public static void main(String[] args){ 
         
         String nama, nama_toko, pesanan, ditoko;   //deklarasi variabel store and order
-        int umur, no_telepon;
+        int no_telepon;
 
         Scanner input = new Scanner(System.in);   //membuat scanner baru
 
@@ -19,9 +19,6 @@ public class Swingtoko{
 
         System.out.print("Nama Toko : ");
         nama_toko = input.nextLine();
-
-        System.out.print("Umur : "); 
-        umur = input.nextInt();
 
         System.out.println("-------------------------");
 
@@ -38,7 +35,6 @@ public class Swingtoko{
         System.out.println("-------------------------");
         System.out.println("Nama Pembuat Toko : " + nama);
         System.out.println("Nama Toko : " + nama_toko);
-        System.out.println("Umur : " + umur);
         System.out.println("Nama Pesanan : " + pesanan);
         System.out.println("Tempat order : " + ditoko);
         System.out.println("No telp : " + no_telepon); 

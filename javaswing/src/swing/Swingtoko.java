@@ -3,7 +3,7 @@ package swing;
 //import library Scanner ke program
 import java.util.Scanner; 
 
-public class Swingtoko{
+public class Swingtoko{ 
 
     public static void main(String[] args){ 
         
@@ -38,10 +38,6 @@ public class Swingtoko{
         System.out.println("Nama Pesanan : " + pesanan);
         System.out.println("Tempat order : " + ditoko);
         System.out.println("No telp : " + no_telepon); 
-
-
-
-
     }
 
 }
